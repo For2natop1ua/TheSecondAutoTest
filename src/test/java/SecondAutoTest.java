@@ -14,7 +14,6 @@ import java.util.concurrent.TimeUnit;
 public class SecondAutoTest {
     WebDriver driver;
     By searchResults = By.cssSelector(".catalog-grid .goods-tile__title");
-    String expectedResult = "Монитор";
 
     @BeforeClass
     public void setUP() {
